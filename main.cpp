@@ -2,6 +2,12 @@
 
 using namespace std;
 
+class Raumschiff
+{
+private:
+public:
+};s
+
 int main()
 {
     cout << "Hello World!" << endl;
