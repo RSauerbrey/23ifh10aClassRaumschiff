@@ -6,7 +6,7 @@ class Raumschiff
 {
 private:
 public:
-};s
+};
 
 int main()
 {
