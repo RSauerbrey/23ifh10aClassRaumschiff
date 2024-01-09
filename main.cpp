@@ -5,6 +5,7 @@ using namespace std;
 class Raumschiff
 {
 private:
+    string Name;
 public:
 };
 
