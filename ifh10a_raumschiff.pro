@@ -4,4 +4,10 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += \
-        main.cpp
+        main.cpp \
+        raumschiff.cpp \
+        rettungskapsel.cpp
+
+HEADERS += \
+    raumschiff.h \
+    rettungskapsel.h
