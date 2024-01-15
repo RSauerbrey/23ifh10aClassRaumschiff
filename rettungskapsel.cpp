@@ -5,7 +5,7 @@ void Rettungskapsel::setSerienNr(int SerienNr)
     this->SerienNr = SerienNr;
 }
 
-string Rettungskapsel::getSerienNr()
+int Rettungskapsel::getSerienNr()
 {
     return SerienNr;
 }
@@ -22,11 +22,12 @@ int Rettungskapsel::getEnergie()
 
 int Rettungskapsel::setCrew(int member)
 {
-    //ToDo
+   crew = member;
     return 0;
 }
 
 int Rettungskapsel::getCrew()
 {
-    //ToDo
+    return crew;
 }
+

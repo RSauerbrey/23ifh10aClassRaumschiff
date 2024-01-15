@@ -20,3 +20,17 @@ int Raumschiff::getEnergie()
     return Energie;
 }
 
+void Raumschiff::setRettungskapsel(Rettungskapsel *k)
+{
+    kapsel = k;
+}
+
+Rettungskapsel* Raumschiff::getRettungskapsel()
+{
+    return kapsel;
+}
+
+void Raumschiff::test()
+{
+    kapsel->setCrew(3);
+}
